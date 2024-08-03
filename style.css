@@ -5,8 +5,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #f6f6f6;
@@ -22,10 +24,11 @@ img {
 }
 .wrapper {
     max-width: 1200px;
+    width: calc(100% - 60px);
     margin: 0 auto;
 }
 .btn {
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: black;
     background-color: #fff;
@@ -43,7 +46,7 @@ img {
 }
 .btn-big {
     padding: 18px 90px;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 .btn-black {
     background-color: #000;
@@ -56,6 +59,9 @@ img {
     align-items: center;
     justify-content: space-between;
     position: relative;
+}
+.burger-button {
+    display: none;
 }
 .list {
     list-style-type: none;
@@ -88,6 +94,9 @@ img {
     align-items: center;
     gap: 50px;
 }
+.header__icons-mobile {
+    display: none;
+}
 .icon {
     font-size: 24px;
     cursor: pointer;
@@ -104,6 +113,7 @@ img {
     background-image: url(images/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 106px;
 }
 .hero__wrapper {
@@ -114,14 +124,14 @@ img {
     justify-content: center;
 }
 .hero__title {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 900;
     color: #ffffff;
     margin-bottom: 10px;
 }
 .hero__text {
     color: white;
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-bottom: 62px;
 }
 
@@ -157,7 +167,7 @@ img {
 }
 
 .popular__title {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -184,9 +194,10 @@ img {
 }
 .popular__card-title {
     margin-top: 280px;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 500;
     margin-bottom: 4px;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
 .popular__card-black {
     color: black;
@@ -195,16 +206,20 @@ img {
     color: white;
 }
 .popular__card-type {
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-bottom: 20px;
 }
 
 /* new products section */
 .new-products {
     margin-bottom: 100px;
+
+    & .btn {
+        display: none;
+    }
 }
 .new-products__heading {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -231,13 +246,13 @@ img {
     position: relative;
 }
 .new-product__title {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: black;
     font-weight: normal;
     margin-bottom: 15px;
 }
 .new-product__price {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: black;
     font-weight: bold;
 }
@@ -306,17 +321,18 @@ img {
 .single {
     background-image: url(images/single-bg.jpg);
     background-size: cover;
+    background-position: center;
     padding-top: 130px;
     padding-bottom: 130px;
     margin-bottom: 188px;
 }
 .single__title {
-    font-size: 50px;
+    font-size: 5rem;
     line-height: 65px;
     margin-bottom: 15px;
 }
 .single__text {
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-bottom: 70px;
 }
 
@@ -332,7 +348,7 @@ img {
     margin-bottom: 28px;
 }
 .type__title {
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 500;
 }
 
@@ -340,18 +356,18 @@ img {
 .kids {
     background-image: url(images/kids-bg.jpg);
     background-size: cover;
+    background-position: center;
     padding-top: 136px;
     padding-bottom: 136px;
-    margin-bottom: 90px;
 }
 .kids__title {
-    font-size: 50px;
+    font-size: 5rem;
     line-height: 65px;
     margin-bottom: 15px;
     color: white;
 }
 .kids__text {
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-bottom: 70px;
     color: white;
 }
@@ -362,6 +378,8 @@ img {
 
 /* footer section */
 .footer {
+    padding-top: 90px;
+    background-color: #fff;
 }
 .footer__top {
     display: flex;
@@ -372,21 +390,26 @@ img {
     margin-bottom: 30px;
 }
 .footer__list-link {
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: -1px;
     color: black;
     text-decoration: none;
+    transition: 0.1s;
+    scale: 1;
+}
+.footer__list-link:hover {
+    scale: 2;
 }
 .footer__contacts {
     width: min-content;
 }
 .contacts__title {
-    font-size: 22px;
+    font-size: 2.2rem;
     margin-bottom: 10px;
     letter-spacing: -1px;
 }
 .contacts__text {
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: -1px;
     text-wrap: balance;
 }
@@ -420,4 +443,30 @@ img {
     border-top: 1px solid #efefef;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.footer__bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__address {
+    font-size: 1.8rem;
+}
+.location-mark {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.footer__copyright {
+    margin-right: auto;
+    font-size: 1.8rem;
+    opacity: 0.4;
+    margin-left: 20px;
+}
+.footer__payment {
+    display: flex;
+    gap: 16px;
+}
+.payment-img {
+    width: 50px;
 }

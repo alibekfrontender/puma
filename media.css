@@ -1,0 +1,426 @@
+@media (max-width: 1024px) {
+    .list {
+        gap: 30px;
+    }
+    .header__icons {
+        gap: 30px;
+    }
+    .slider-buttons {
+        display: none;
+    }
+
+    .footer__top {
+        margin-bottom: 20px;
+    }
+    .footer__list-item {
+        margin-bottom: 20px;
+    }
+    .footer__list-link {
+        font-size: 1.5rem;
+    }
+    .footer__email-input {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer__email-input {
+        width: 300px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+    .btn {
+        font-size: 1.5rem;
+        padding: 5px 30px;
+    }
+    .btn-big {
+        padding: 12px 50px;
+        font-size: 2rem;
+    }
+    .list {
+        gap: 20px;
+    }
+    .list-item {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .logo {
+        width: 35px;
+    }
+    .header__icons {
+        gap: 20px;
+    }
+    .icon {
+        font-size: 16px;
+    }
+    .profile-image {
+        width: 35px;
+        height: 35px;
+    }
+
+    .hero {
+        margin-bottom: 60px;
+    }
+    .hero__wrapper {
+        height: 400px;
+    }
+    .hero__title {
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+    .hero__text {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .popular {
+        margin-bottom: 60px;
+    }
+
+    .popular__header {
+        margin-bottom: 20px;
+    }
+    .arrow-group {
+        gap: 5px;
+    }
+    .arrow-group img {
+        width: 30px;
+        height: 30px;
+    }
+    .popular__title {
+        font-size: 3.2rem;
+    }
+    .popular__cards {
+        gap: 10px;
+    }
+    .popular__card {
+        height: 280px;
+        padding: 20px;
+    }
+    .popular__card:first-child {
+        background-size: 280px;
+        background-position-y: 0px;
+    }
+    .popular__card-title {
+        font-size: 2rem;
+        margin-top: 170px;
+        margin-bottom: 0px;
+    }
+    .popular__card-type {
+        font-size: 1.2rem;
+        margin-bottom: 2px;
+    }
+
+    /* new products section */
+    .new-products {
+        margin-bottom: 60px;
+    }
+
+    .new-products__heading {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .new-products__slider {
+        gap: 5px;
+    }
+    .new-product__info {
+        padding: 10px;
+    }
+    .new-product__title {
+        font-size: 1.6rem;
+        margin-bottom: 7px;
+    }
+    .new-product__price {
+        font-size: 2rem;
+    }
+    .new-product__button {
+        width: 30px;
+        height: 30px;
+
+        bottom: 10px;
+        right: 10px;
+    }
+    .new-product__button > .icon {
+        font-size: 12px;
+    }
+
+    /* single section */
+
+    .single {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        margin-bottom: 94px;
+    }
+    .single__title {
+        font-size: 4rem;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .single__text {
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+
+    /* variety section */
+    .variety {
+        margin-bottom: 60px;
+    }
+    .variety__wrapper {
+        gap: 5px;
+    }
+    .type__img {
+        margin-bottom: 14px;
+    }
+    .type__title {
+        font-size: 2.3rem;
+    }
+
+    /* kids section */
+    .kids {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .kids__title {
+        font-size: 4rem;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+    .kids__text {
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+    .kids__buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* footer section */
+    .footer {
+        padding-top: 45px;
+    }
+    .footer__list-item {
+        margin-bottom: 15px;
+    }
+    .contacts__title {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    .contacts__text {
+        font-size: 1.6rem;
+        letter-spacing: -1px;
+        text-wrap: balance;
+    }
+    .footer__email-input {
+        border: 1px solid black;
+        width: 220px;
+        height: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .email__input {
+        padding-left: 10px;
+    }
+    .footer__social-icons {
+        display: flex;
+        gap: 14px;
+    }
+    .social-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer__bottom {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .footer__address {
+        font-size: 1.5rem;
+    }
+    .location-mark {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .footer__copyright {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .footer__payment {
+        gap: 8px;
+    }
+    .payment-img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 426px) {
+    .btn {
+        font-size: 10px;
+        padding: 8px 38px;
+    }
+    .btn-big {
+        padding: 12px 38px;
+        font-size: 14px;
+        line-height: 16.71px;
+    }
+
+    /* header styles */
+    .header__wrapper {
+        padding: 15px 0;
+    }
+    .list {
+        display: none;
+    }
+    .burger-button {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .logo {
+        width: 34px;
+    }
+    .header__icons {
+        display: none;
+    }
+
+    .header__icons-mobile {
+        display: flex;
+        gap: 35px;
+        align-items: center;
+
+        & .icon {
+            font-size: 20px;
+        }
+    }
+
+    /* Hero section */
+    .hero {
+        margin-bottom: 77px;
+    }
+    .hero__wrapper {
+        height: auto;
+        padding-top: 57px;
+        padding-bottom: 58px;
+    }
+    .hero__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.5px;
+        margin-bottom: 8px;
+    }
+    .hero__text {
+        font-size: 12px;
+        line-height: 14.32px;
+        margin-bottom: 28px;
+    }
+
+    /* Popular section */
+    .popular {
+        margin-bottom: 70px;
+    }
+    .popular__wrapper {
+        width: 100%;
+    }
+    .popular__header {
+        margin-bottom: 13px;
+        padding: 0 30px;
+    }
+    .arrow-group {
+        gap: 0px;
+    }
+    .popular__title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26.25px;
+    }
+    .popular__cards {
+        display: flex;
+        gap: 0px;
+
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
+    .popular__card {
+        flex: auto;
+        flex-shrink: 0;
+        width: 100%;
+        height: 268px;
+    }
+    .popular__card:first-child {
+        background-size: 250px;
+        background-position-y: 17px;
+        background-position-x: 112px;
+    }
+    .popular__card:last-child {
+        background-position: bottom;
+    }
+    .popular__card-title {
+        margin-top: 150px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.48px;
+        margin-bottom: 6px;
+    }
+    .popular__card-type {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    /* new products section */
+    .new-products {
+        margin-bottom: 70px;
+
+        & .btn {
+            display: block;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 21.5px;
+            padding: 21px 0;
+        }
+    }
+    .new-products__heading {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .new-products__slider {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .new-product__info {
+        padding: 21px 24px 22px;
+    }
+    .new-product__title {
+        font-size: 18px;
+        line-height: 21.5px;
+        margin-bottom: 17px;
+    }
+    .new-product__price {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+    .new-product__button {
+        width: 56px;
+        height: 56px;
+
+        bottom: 18px;
+        right: 24px;
+
+        & .icon {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 320px) {
+}
