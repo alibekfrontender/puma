@@ -343,6 +343,12 @@ img {
 .variety__wrapper {
     display: flex;
     gap: 14px;
+    & .btn {
+        display: none;
+    }
+}
+.variety__title {
+    display: none;
 }
 .type__img {
     margin-bottom: 28px;
